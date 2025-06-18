@@ -1,9 +1,9 @@
-import example.pepita
+import mutual.*
 
-describe "group of tests for pepita" {
+describe "aber si anda" {
 
   test "pepita has initial energy" {
-    assert.equals(100, pepita.energy())
+    assert.that(  new Trolo().esAlgo())
   }
 
 }
